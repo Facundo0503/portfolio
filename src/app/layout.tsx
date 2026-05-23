@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cfacu.dev"),
   title: "cfacu.ai — Sistemas con IA para negocios reales",
   description:
     "Construyo sistemas con IA que reemplazan procesos manuales. Automatizaciones, SaaS a medida e integraciones WhatsApp para negocios en LATAM.",

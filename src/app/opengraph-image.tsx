@@ -16,7 +16,6 @@ export default function Image() {
           alignItems: "center",
           justifyContent: "center",
           background: "#0d0d0d",
-          position: "relative",
           overflow: "hidden",
           fontFamily: "system-ui, -apple-system, sans-serif",
         }}
@@ -26,6 +25,7 @@ export default function Image() {
           style={{
             position: "absolute",
             inset: 0,
+            display: "flex",
             backgroundImage:
               "linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px)",
             backgroundSize: "48px 48px",
@@ -41,6 +41,7 @@ export default function Image() {
             transform: "translate(-50%, -50%)",
             width: "900px",
             height: "500px",
+            display: "flex",
             borderRadius: "50%",
             background:
               "radial-gradient(ellipse at center, rgba(99,102,241,0.2) 0%, transparent 65%)",
@@ -54,7 +55,6 @@ export default function Image() {
             flexDirection: "column",
             alignItems: "center",
             position: "relative",
-            zIndex: 1,
           }}
         >
           {/* Wordmark */}
@@ -82,23 +82,42 @@ export default function Image() {
             >
               c
             </div>
-            <span
+            <div
               style={{
-                color: "#f0f0f0",
-                fontSize: "30px",
-                fontWeight: 700,
-                letterSpacing: "-1.5px",
+                display: "flex",
+                alignItems: "baseline",
               }}
             >
-              facu
-              <span style={{ color: "#6366f1" }}>.ai</span>
-            </span>
+              <span
+                style={{
+                  color: "#f0f0f0",
+                  fontSize: "30px",
+                  fontWeight: 700,
+                  letterSpacing: "-1.5px",
+                }}
+              >
+                facu
+              </span>
+              <span
+                style={{
+                  color: "#6366f1",
+                  fontSize: "30px",
+                  fontWeight: 700,
+                  letterSpacing: "-1.5px",
+                }}
+              >
+                .ai
+              </span>
+            </div>
           </div>
 
           {/* Headline */}
           <div
             style={{
-              color: "#f0f0f0",
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              alignItems: "baseline",
               fontSize: "68px",
               fontWeight: 800,
               textAlign: "center",
@@ -106,15 +125,17 @@ export default function Image() {
               lineHeight: "1.08",
               maxWidth: "920px",
               marginBottom: "24px",
+              gap: "16px",
             }}
           >
-            Tu negocio puede{" "}
+            <span style={{ color: "#f0f0f0" }}>Tu negocio puede</span>
             <span style={{ color: "#6366f1" }}>correr solo.</span>
           </div>
 
           {/* Subtitle */}
           <div
             style={{
+              display: "flex",
               color: "rgba(240,240,240,0.5)",
               fontSize: "24px",
               textAlign: "center",
