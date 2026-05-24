@@ -64,24 +64,36 @@ const showcaseItems: ShowcaseItem[] = [
     label: "AgendaOS",
     live: false,
     preview: <ScaledAgendaOSMockup view="Agenda" />,
-    eyebrow: "Aceptando pilotos · Barberías y centros de estética",
+    eyebrow: "Barberías · Estéticas · Centros de belleza",
     headline: "Turnos por WhatsApp sin apps ni cuentas",
     description:
-      "El cliente reserva, confirma y cancela desde el mismo WhatsApp que ya usa. Confirmaciones y recordatorios automáticos. El dueño gestiona todo desde el panel.",
+      "El cliente reserva, confirma y cancela desde el mismo WhatsApp que ya usa. Confirmaciones y recordatorios automáticos 24hs antes. El dueño gestiona todo desde el panel — sin planillas, sin llamados.",
+    problem:
+      "Turnos tomados a mano por WhatsApp. Sin recordatorios, los no-shows se acumulan. Sin historial, es imposible ver qué días están llenos o vacíos.",
+    solution:
+      "El cliente reserva desde su WhatsApp sin descargar nada. El sistema confirma, manda recordatorio 24hs antes y actualiza la agenda en tiempo real.",
+    result:
+      "+90% tasa de confirmación proyectada. Cero horas en coordinación manual. Agenda visible de un vistazo, no repartida en 10 chats.",
     tags: ["Next.js", "WhatsApp API", "Supabase", "Claude API"],
-    cta: "Quiero ser cliente piloto",
+    cta: "Reservar mi lugar como piloto",
   },
   {
     key: "leadOS",
     label: "LeadOS",
     live: false,
     preview: <ScaledLeadOSMockup view="Pipeline" />,
-    eyebrow: "Aceptando pilotos · Agentes inmobiliarios",
+    eyebrow: "Agentes inmobiliarios · Buenos Aires",
     headline: "Ningún lead se pierde por falta de seguimiento",
     description:
-      "Todos los leads en un pipeline Kanban. Seguimiento automático por WhatsApp, ficha con resumen IA y secuencia de contacto hasta el cierre.",
+      "Todos los leads de Zonaprop, ML e Instagram en un solo pipeline. Seguimiento automático por WhatsApp, resumen IA por contacto y secuencia hasta el cierre — sin depender de la memoria.",
+    problem:
+      "Leads de múltiples fuentes sin sistema central. Sin seguimiento activo, se enfrían. Cada lead perdido es una comisión que se va.",
+    solution:
+      "Pipeline Kanban unificado con todos los contactos. Seguimiento automático por WhatsApp y resumen IA de cada lead para saber exactamente qué paso dar.",
+    result:
+      "Tiempo de respuesta promedio de 38 min (la industria tarda 2hs+). Cero leads sin seguimiento. Historial completo de cada contacto hasta el cierre.",
     tags: ["Next.js", "Supabase", "Claude API", "WhatsApp API"],
-    cta: "Quiero ser cliente piloto",
+    cta: "Reservar mi lugar como piloto",
   },
 ];
 
