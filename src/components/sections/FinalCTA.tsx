@@ -57,7 +57,7 @@ export default function FinalCTA() {
                   Hablar por WhatsApp
                 </Button>
               </a>
-              <a href="mailto:facuc0503@gmail.com">
+              <a href="mailto:hola@cfacu.dev">
                 <Button
                   size="lg"
                   variant="outline"

@@ -42,7 +42,7 @@ export default function Footer() {
             <InstagramIcon className="w-4 h-4" />
           </a>
           <a
-            href="mailto:facuc0503@gmail.com"
+            href="mailto:hola@cfacu.dev"
             className="text-muted-foreground hover:text-foreground transition-colors"
             aria-label="Email"
           >
