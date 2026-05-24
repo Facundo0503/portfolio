@@ -86,10 +86,14 @@ export default function Services() {
         </div>
 
         {/* Price anchor + CTA */}
-        <div className="text-center mt-8 flex flex-col items-center gap-4">
-          <p className="text-xs text-muted-foreground/50 font-mono">
-            Proyectos desde $800 USD · alcance y precio definidos en el diagnóstico
-          </p>
+        <div className="text-center mt-10 flex flex-col items-center gap-3">
+          <div className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 bg-card">
+            <span className="text-sm font-mono font-semibold" style={{ color: "var(--accent-brand)" }}>
+              Proyectos desde $800 USD
+            </span>
+            <span className="text-muted-foreground text-xs">·</span>
+            <span className="text-xs text-muted-foreground">alcance y precio definidos en el diagnóstico</span>
+          </div>
           <a
             href="#contacto"
             className="inline-flex items-center gap-1.5 text-sm font-medium transition-opacity hover:opacity-70"

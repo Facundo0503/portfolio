@@ -138,7 +138,7 @@ export default function Hero() {
               variant="outline"
               className="w-full sm:w-auto gap-2 border-border hover:bg-secondary px-7"
             >
-              Ver casos reales
+              Ver el caso GymPro
               <ArrowRight className="w-4 h-4" />
             </Button>
           </a>
