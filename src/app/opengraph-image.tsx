@@ -157,7 +157,7 @@ export default function Image() {
           >
             {[
               { value: "2-4 sem", label: "Del diagnóstico al deploy" },
-              { value: "1 SaaS", label: "Live en producción hoy" },
+              { value: "$800k ARS", label: "Recuperados para MK Gym en 60 días" },
               { value: "6 hs/sem", label: "De trabajo manual eliminado" },
             ].map((s, i) => (
               <div
